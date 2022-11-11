@@ -7,6 +7,8 @@
 
 import Foundation
 
+//서버에서 주는 Model
+
 struct ArticleList: Decodable {
     let articles: [Article]
 }
